@@ -10,4 +10,4 @@ def test_links_count():
     for link in links:
         assert link.is_displayed()
     assert "1" in links[0].text
-    driver.quit()
+    driver.quit() # Коментарий для пул реквеста
